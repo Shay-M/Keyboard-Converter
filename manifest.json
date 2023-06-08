@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Keyboard Converter",
+  "version": "1.0",
+  "description": "Converts text between Hebrew and English keyboards.",
+  "permissions": ["activeTab", "contextMenus"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
