@@ -126,7 +126,6 @@ function convertText(text, type) {
 
   let convertedText = '';
   const mapping = type === 'convertToEnglish' ? hebrewToEnglishMap : englishToHebrewMap;
-  //   const mapping = hebrewToEnglishMap;
 
   for (let i = 0; i < text.length; i++) {
     const char = text[i];
