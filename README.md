@@ -1,5 +1,7 @@
 # Hebrew-English Converter Chrome Extension
 
+![Extension Icon](icon128.png)
+
 This is a Chrome extension that allows users to convert selected text between Hebrew and English. It adds two options to the right-click context menu, enabling users to convert selected text to Hebrew or English with a single click.
 
 ## Features
